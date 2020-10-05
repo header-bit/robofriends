@@ -1,0 +1,17 @@
+.SearchBoxStyles {
+	border-color: #5f2c82;
+	background-color: #49a09d;
+	text-decoration-color: #5f2c82;
+}
+
+::placeholder { 
+  color: #5f2c82;
+}
+
+:-ms-input-placeholder {
+  color: #5f2c82;
+}
+
+::-ms-input-placeholder {
+  color: #5f2c82;
+}
