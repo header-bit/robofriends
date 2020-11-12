@@ -4,7 +4,7 @@ import './Card.css';
 const Card = ({ name, email}) => {
 	return (
 		<div className='tc backgroundI dib br3 pa3 ma2 grow bw2 shadow-5'>
-			<img alt='robots' src={`https://robohash.org/${name}?200x200`} />
+			<img alt='robots' src={`https://robohash.org/${name.toUpperCase()}?200x200`} />
 			<div>
 				<h2>{name}</h2>
 				<p>{email}</p>
